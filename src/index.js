@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './site.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { ArticleGrid } from './pages/ArticleGrid';
 
-ReactDOM.render(<App />, document.getElementById('wrap'));
+ReactDOM.render(<ArticleGrid />, document.getElementById('wrap'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
